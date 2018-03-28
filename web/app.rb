@@ -40,7 +40,7 @@ get "/" do
     before_install_list_item = "<li>#{STRAP_BEFORE_INSTALL}</li>"
   end
 
-  @title = "¡Bienvenid@ a Lemon Strap!"
+  @title = "¡Bienvenid@ a 🍋 Strap!"
   @text = <<-EOS
 Lemon Strap son una serie de Scripts que le permitiran la instalación y configuración de su equipo para que esten listos para ejecutar el producto que va a desarrollar ¡Con el minimo esfuerzo 🤩!
 
@@ -48,7 +48,7 @@ Para comenzar, seleccione su producto:<br>
 
 <ol>
   <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
-  <li><a href="/strap.sh"><code>ttb.sh</code></a>: que contiene una instalación del entorno de The Time Billing usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
+  <li><a href="/strap.sh"><code>ttb.sh</code></a>: que contiene una instalación del entorno de The Time Billing (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
 </ol>
 
 <ul>
