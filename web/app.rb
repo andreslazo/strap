@@ -44,7 +44,8 @@ get "/" do
   @text = <<-EOS
 Lemon Strap son una serie de Scripts que le permitiran la instalación y configuración de su equipo para que esten listos para ejecutar el producto que va a desarrollar ¡Con el minimo esfuerzo 🤩!
 
-Para comenzar, seleccione su producto:
+Para comenzar, seleccione su producto:<br>
+
 <ol>
   #{before_install_list_item}
   <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
