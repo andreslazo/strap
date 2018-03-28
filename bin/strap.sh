@@ -334,5 +334,11 @@ if [ -n "$CUSTOM_BREW_COMMAND" ]; then
   logk
 fi
 
+if [ -n "$PRODUCT_SELECTED" ]; then
+  log "Executing 'brew $PRODUCT_SELECTED':"
+  #brew "$PRODUCT_SELECTED"
+  logk
+fi
+
 STRAP_SUCCESS="1"
 log "Your system is now Strap'd!"

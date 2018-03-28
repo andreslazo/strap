@@ -35,6 +35,10 @@
     "CUSTOM_BREW_COMMAND": {
       "description": "a single 'brew' command that is run after all other stages have completed.",
       "required": false
+    },
+    "PRODUCT_SELECTED": {
+      "description": "a single 'brew' command that is run after all other stages have completed.",
+      "required": false
     }
   }
 }

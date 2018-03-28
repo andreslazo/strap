@@ -59,6 +59,7 @@ Instead, to deploy to [Heroku](https://www.heroku.com) click:
 - `STRAP_BEFORE_INSTALL`: instructions displayed in the web application for users to follow before installing Strap (wrapped in `<li>` tags).
 - `CUSTOM_HOMEBREW_TAP`: an optional Homebrew tap to install with `brew tap`.
 - `CUSTOM_BREW_COMMAND`: a single `brew` command that is run after all other stages have completed.
+- `PRODUCT_SELECTED`: a selector to choose what product is going to use
 
 ## Status
 Stable and in active development.
