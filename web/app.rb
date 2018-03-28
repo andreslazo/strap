@@ -39,7 +39,7 @@ get "/" do
     before_install_list_item = "<li>#{STRAP_BEFORE_INSTALL}</li>"
   end
 
-  @title = "Lemon Strap"
+  @title = "Lemon Strap Test Heroku"
   @text = <<-EOS
 Lemon Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
 
