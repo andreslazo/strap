@@ -15,6 +15,7 @@ CUSTOM_BREW_COMMAND = ENV["CUSTOM_BREW_COMMAND"]
 PRODUCT_SELECTED = ENV["PRODUCT_SELECTED"]
 
 set :sessions, secret: SESSION_SECRET
+set :protection, except: [:frame_options]
 
 use OmniAuth::Builder do
   options = { scope: "user:email,repo" }
