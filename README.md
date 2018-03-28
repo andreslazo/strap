@@ -1,8 +1,8 @@
-# Strap
+# Lemon Strap
 A script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
 
 ## Motivation
-Replacing [Boxen](https://github.com/boxen/boxen/) in [GitHub](https://github.com/) with a better tool. This post outlines the problems with Boxen and requirements for Strap and other tools used by GitHub: http://mikemcquaid.com/2016/06/15/replacing-boxen/
+Replacing [Boxen](https://github.com/boxen/boxen/) in [GitHub](https://github.com/) with a better tool. This post outlines the problems with Boxen and requirements for Lemon Strap and other tools used by GitHub: http://mikemcquaid.com/2016/06/15/replacing-boxen/
 
 ## Features
 - Disables Java in Safari (for better security)
@@ -32,7 +32,7 @@ Replacing [Boxen](https://github.com/boxen/boxen/) in [GitHub](https://github.co
 ## Usage
 Open https://macos-strap.herokuapp.com/ in your web browser.
 
-Instead, to run Strap locally run:
+Instead, to run Lemon Strap locally run:
 ```bash
 git clone https://github.com/MikeMcQuaid/strap
 cd strap
@@ -56,7 +56,7 @@ Instead, to deploy to [Heroku](https://www.heroku.com) click:
 - `SESSION_SECRET`: the secret used for cookie session storage.
 - `WEB_CONCURRENCY`: the number of Unicorn (web server) processes to run (defaults to 3).
 - `STRAP_ISSUES_URL`: the URL where users should file issues (defaults to https://github.com/mikemcquaid/strap/issues/new).
-- `STRAP_BEFORE_INSTALL`: instructions displayed in the web application for users to follow before installing Strap (wrapped in `<li>` tags).
+- `STRAP_BEFORE_INSTALL`: instructions displayed in the web application for users to follow before installing Lemon Strap (wrapped in `<li>` tags).
 - `CUSTOM_HOMEBREW_TAP`: an optional Homebrew tap to install with `brew tap`.
 - `CUSTOM_BREW_COMMAND`: a single `brew` command that is run after all other stages have completed.
 - `PRODUCT_SELECTED`: a selector to choose what product is going to use
