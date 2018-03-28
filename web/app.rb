@@ -47,7 +47,7 @@ Lemon Strap son una serie de Scripts que le permitiran la instalación y configu
 Para comenzar, seleccione su producto:
 <ol>
   #{before_install_list_item}
-  <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>). This will prompt for access to your email, public and private repositories; you'll need to provide access to any organizations whose repositories you need to be able to <code>git clone</code>. This is used to add a GitHub access token to the <code>strap.sh</code> script and is not otherwise used by this web application or stored anywhere.</li>
+  <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
   <li>Ejecuta el archivo descargado en la terminal <code>bash ~/Downloads/install.sh</code>.</li>
   <li>Recuerde eliminar el archivo <code>strap.sh</code></a> (contiene sus token de github 😱) en Terminal.app con <code>rm -f ~/Downloads/install.sh</code></a></li>
   <li>En construcción: If something failed, run Lemon Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
