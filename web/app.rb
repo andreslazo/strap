@@ -48,9 +48,9 @@ Para comenzar, seleccione su producto:
 <ol>
   #{before_install_list_item}
   <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>).</li>
-  <li>Ejecuta el archivo descargado en la terminal <code>bash ~/Downloads/install.sh</code>.</li>
-  <li>Recuerde eliminar el archivo <code>strap.sh</code></a> (contiene sus token de github 😱) en Terminal.app con <code>rm -f ~/Downloads/install.sh</code></a></li>
-  <li>En construcción: If something failed, run Lemon Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
+  <li>Ejecuta el archivo descargado en la terminal <code>bash ~/Downloads/simple.sh</code>.</li>
+  <li>Recuerde eliminar el archivo <code>simple.sh</code></a> (contiene sus token de github 😱) en Terminal.app con <code>rm -f ~/Downloads/simple.sh</code></a></li>
+  <li>En construcción: If something failed, run Lemon Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/simple.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
 </ol>
 
 <a href="https://github.com/mikemcquaid/strap"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="//aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub"></a>
