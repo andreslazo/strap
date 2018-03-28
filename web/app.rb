@@ -40,18 +40,17 @@ get "/" do
     before_install_list_item = "<li>#{STRAP_BEFORE_INSTALL}</li>"
   end
 
-  @title = "Lemon Strap Test Heroku"
+  @title = "¡Bienvenid@ a Lemon Strap!"
   @text = <<-EOS
-Lemon Strap is a script to bootstrap a minimal macOS development system. This does not assume you're doing Ruby/Rails/web development but installs the minimal set of software every macOS developer will want.
+Lemon Strap son una serie de Scripts que le permitiran la instalación y configuración de su equipo para que esten listos para ejecutar el producto que va a desarrollar ¡Con el minimo esfuerzo 🤩!
 
-To Lemon Strap your system:
+Para comenzar, seleccione su producto:
 <ol>
   #{before_install_list_item}
-  <li><a href="/strap.sh">Download the <code>strap.sh</code></a> that's been customised for your GitHub user (or <a href="/strap.sh?text=1">view it</a> first). This will prompt for access to your email, public and private repositories; you'll need to provide access to any organizations whose repositories you need to be able to <code>git clone</code>. This is used to add a GitHub access token to the <code>strap.sh</code> script and is not otherwise used by this web application or stored anywhere.</li>
-  <li>Run Lemon Strap in Terminal.app with <code>bash ~/Downloads/strap.sh</code>.</li>
-  <li>If something failed, run Lemon Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
-  <li>Delete the customised <code>strap.sh</code></a> (it has a GitHub token in it) in Terminal.app with <code>rm -f ~/Downloads/strap.sh</code></a></li>
-  <li>Install additional software with <code>brew install</code> and <code>brew cask install</code>.</li>
+  <li><a href="/strap.sh"><code>simple.sh</code></a>: que contiene una instalación simple (solo las herramientas basicas) usando su usuario de GitHub (Verlo <a href="/strap.sh?text=1">aqui</a>). This will prompt for access to your email, public and private repositories; you'll need to provide access to any organizations whose repositories you need to be able to <code>git clone</code>. This is used to add a GitHub access token to the <code>strap.sh</code> script and is not otherwise used by this web application or stored anywhere.</li>
+  <li>Ejecuta el archivo descargado en la terminal <code>bash ~/Downloads/install.sh</code>.</li>
+  <li>Recuerde eliminar el archivo <code>strap.sh</code></a> (contiene sus token de github 😱) en Terminal.app con <code>rm -f ~/Downloads/install.sh</code></a></li>
+  <li>En construcción: If something failed, run Lemon Strap with more debugging output in Terminal.app with <code>bash ~/Downloads/strap.sh --debug</code> and file an issue at <a href="#{STRAP_ISSUES_URL}">#{STRAP_ISSUES_URL}</a></li>
 </ol>
 
 <a href="https://github.com/mikemcquaid/strap"><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px;" src="//aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub"></a>
